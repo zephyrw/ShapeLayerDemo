@@ -100,6 +100,7 @@ private func addSlider() {
 至此，`ShapeLayer`图形动画就完成了
 ## ShapeLayer蒙版
 用ShapeLayer创建一个带图形的蒙版如下图
+
 <img src='http://ogdqxib8j.bkt.clouddn.com/MaskImage.png' width='200', height='400'>
 ### 思路
 新建一个蒙版视图`View`,然后将绘有贝塞尔曲线的`ShapeLayer`设置为蒙版视图图层的`mask`
